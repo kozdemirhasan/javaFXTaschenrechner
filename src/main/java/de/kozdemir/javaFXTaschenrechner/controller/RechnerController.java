@@ -166,7 +166,7 @@ public class RechnerController {
 			break;
 
 		case "-":
-			if (etiket.lastIndexOf("-") == etiket.indexOf("-"))
+			if (etiket.lastIndexOf("-") == etiket.indexOf("-"))					
 				ergebnis = wert;
 			else
 				ergebnis -= wert;
